@@ -42,17 +42,15 @@ body {
   animation-name: Title;
   animation-duration: 11s;
   animation-iteration-count: infinite;
+  animation-direction:alternate;
 }
 
 @keyframes Title {
   0% {
     color: #182c18;
   }
-  65% {
-    color: #3c6f3c;
-  }
   100% {
-    color: #182c18;
+    color: #3c6f3c;
   }
 }
 
