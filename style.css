@@ -64,7 +64,7 @@ body {
   transition-duration: 0.4s;
 }
 #menuContainer a:hover {
-  color: #62be62;
+  color: #000000;
 }
 
 .content {
