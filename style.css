@@ -35,14 +35,14 @@ body {
 
 #mainTitle h1 {
   font-family: "DM Serif Display", serif;
-  letter-spacing: 9px;
+  letter-spacing: 13px;
 
   user-select: none;
-  
+
   animation-name: Title;
-  animation-duration: 11s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-direction:alternate;
+  animation-direction: alternate;
 }
 
 @keyframes Title {
@@ -50,7 +50,7 @@ body {
     color: #182c18;
   }
   100% {
-    color: #3c6f3c;
+    color: #2c6d2c;
   }
 }
 
@@ -61,10 +61,10 @@ body {
   color: black;
   letter-spacing: 3px;
   font-family: "Source Code Pro", monospace;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
 }
 #menuContainer a:hover {
-  color: #000000;
+  color: #0d8a35;
 }
 
 .content {
@@ -76,13 +76,13 @@ body {
 #swann {
   position: absolute;
   margin-top: 0px;
-  margin-left: -385px;
+  margin-left: -345px;
 }
 
 #cake {
   position: absolute;
   margin-top: 90px;
-  margin-left: -80px;
+  margin-left: -40px;
   z-index: 1;
   border: 22px solid white;
 }
@@ -90,12 +90,21 @@ body {
 #muffin {
   position: absolute;
   margin-top: -5px;
-  margin-left: 268px;
+  margin-left: 308px;
 }
 
 #butterfly {
   position: absolute;
   margin-top: -175px;
-  margin-left: 410px;
+  margin-left: 450px;
   transform: rotate(25deg);
+}
+
+#copyright {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  margin-top: 740px;
+  margin-left: 1806px;
+  z-index: 2;
 }
