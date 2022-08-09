@@ -63,7 +63,7 @@ body {
   color: black;
   letter-spacing: 3px;
   font-family: "Source Code Pro", monospace;
-  transition-duration: 1.7s;
+  transition-duration: 3s;
 }
 #menuContainer a:hover {
   color: #62be62;
