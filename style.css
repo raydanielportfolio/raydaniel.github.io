@@ -35,7 +35,7 @@ body {
 
 #mainTitle h1 {
   font-family: "DM Serif Display", serif;
-  letter-spacing: 13px;
+  letter-spacing: 15px;
 
   user-select: none;
 
@@ -59,7 +59,7 @@ body {
   margin-right: 50px;
   text-decoration: none;
   color: black;
-  letter-spacing: 3px;
+  letter-spacing: 7px;
   font-family: "Source Code Pro", monospace;
   transition-duration: 0.3s;
 }
@@ -77,6 +77,8 @@ body {
   position: absolute;
   margin-top: 0px;
   margin-left: -345px;
+
+  image-rendering: pixelated;
 }
 
 #cake {
@@ -98,13 +100,4 @@ body {
   margin-top: -175px;
   margin-left: 450px;
   transform: rotate(25deg);
-}
-
-#copyright {
-  font-size: 17px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  position: absolute;
-  margin-top: 740px;
-  margin-left: 1806px;
-  z-index: 2;
 }
